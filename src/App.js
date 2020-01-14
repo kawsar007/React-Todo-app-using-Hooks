@@ -27,7 +27,7 @@ const App = () => {
   ])
   return (
     <div className="App">
-      <h2>Hello React Hooks</h2>
+      <h2>Hello React Hookss</h2>
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo  key={index} index={index} todo={todo}/>
